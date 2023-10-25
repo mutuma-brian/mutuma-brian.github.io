@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mutuma Brian Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swipers = document.querySelectorAll('.swiper-container');
+
+            swipers.forEach(function (swiper) {
+                new Swiper(swiper, {
+                    loop: true,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+  <div class="profile-img-container">
+    <img class="profile-img" src="Pic.jpg" alt="Profile Picture">
+  </div>
+    <h1>
+    <span style="color: white; text-align: left; float: left;">"Dream it. Build It"</span>
+    <span style="text-align:bottom;color: silver; font-size: 20px; float: right;">Game Dev, Designer, Software Developer&nbsp</span>
+    <span style="float: right;">I'm Brian Mutuma&nbsp</span>
+    <span style="color: yellow; float: right;">Hello!! &nbsp</span>  
+</h1>
+</header>
+    <nav>
+        <a href="index.html">Brian Mutuma</a>
+        <a href="games.html">Games</a>
+        <a href="android.html">Android</a>
+        <a href="ios.html">iOS</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id="games">
+            <h2>Professional Titles</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 1.jpeg" alt="Daybreak Fury Screenshot 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 2.jpeg" alt="Daybreak Fury Screenshot 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 3.jpeg" alt="Daybreak Fury Screenshot 3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 4.jpeg" alt="Daybreak Fury Screenshot 4">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 5.jpeg" alt="Daybreak Fury Screenshot 5">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Daybreak Fury 6.jpeg" alt="Daybreak Fury Screenshot 6">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3>Daybreak Fury 1</h3>
+                    <p>Daybreak Fury 1 is a racing game I developed for PC and mobile devices.
+                        The player races with other AI-controlled cars in an open-world scene to win points.
+                        The game is available for download on Steam for PC.
+                        The Android version and iOS version are on Play Store and App Store, respectively.
+                    </p>
+                </div>
+                <div class="project">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="TUKTUK Rage 1.jpeg" alt="TUKTUK Rage Screenshot 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="TUKTUK Rage 2.jpeg" alt="TUKTUK Rage Screenshot 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="TUKTUK Rage 3.jpeg" alt="TUKTUK Rage Screenshot 3">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="TUKTUK Rage 4.jpeg" alt="TUKTUK Rage Screenshot 4">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3>TUKTUK Rage</h3>
+                    <p>TUKTUK Rage is a mobile game where the player races with AI-controlled buggy cars
+                        to earn points and progress to the next level. The game is available on Play Store and App Store.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+             <p><a href="mailto:mutumabrian77@gmail.com"><i class="fas fa-envelope" style="color: white;"></i> </a>
+                <a href="tel:+254757551682"><i class="fas fa-phone" style="color: green;"></i></a>
+                <a href="https://www.linkedin.com/in/mutuma-brian-791228272/"><i class="fab fa-linkedin" style="color: #0077B5;"></i></a>
+                <a href="https://github.com/mutuma-brian"><i class="fab fa-github" style="color: black;"></i> </a>
+                <a href="https://twitter.com/MutumaDev"><i class="fab fa-twitter" style="color: #1DA1F2;"></i> </a>
+              </p>
+            </div>
+        </section>
+    </main>
+   <footer>
+    <hr>
+    <p>&copy; All rights reserved 2023</p>
+</footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+</body>
+
+</html>

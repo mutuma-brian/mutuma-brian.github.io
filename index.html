@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mutuma Brian Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swipers = document.querySelectorAll('.swiper-container');
+
+            swipers.forEach(function (swiper) {
+                new Swiper(swiper, {
+                    loop: true,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+  <header>
+  <div class="profile-img-container">
+    <img class="profile-img" src="Pic.jpg" alt="Profile Picture">
+  </div>
+    <h1>
+    <span style="color: white; text-align: left; float: left;">"Dream it. Build It"</span>
+    <span style="text-align:bottom;color: silver; font-size: 20px; float: right;">Game Dev, Designer, Software Developer&nbsp</span>
+    <span style="float: right;">I'm Brian Mutuma&nbsp</span>
+    <span style="color: yellow; float: right;">Hello!! &nbsp</span>  
+</h1>
+</header>
+
+<nav>
+    <a href="index.html">Brian Mutuma</a>
+    <a href="games.html">Games</a>
+    <a href="android.html">Android</a>
+    <a href="ios.html">iOS</a>
+    <a href="contact.html">Contact</a>
+</nav>
+    
+    <!-- Add the video element after the navigation bar -->
+    <video autoplay loop muted>
+        <source src="Video gameplay.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+   <main style="background-color: rgba(0, 0, 0, 0.5); color: white; padding-left: 130px; padding-right: 130px;">
+    <p style="text-align: center; color: yellow; font-size: 20px; margin-top:0px; ">ABOUT ME</p>
+    <p>
+        Hi! I'm Brian Mutuma, a passionate game designer and developer. I have been making games for than 2 years now.
+        I have participated in the creation of captivating titles such as Daybreak Fury, TUKTUK Rage, and a few others that have left gamers at the edge of their seats.
+        Here you can see some of the projects I have had the privilege to participate in. I have successfully shipped several games to Google Play Store and App Store.<br><br>
+        I have mastered my craft with numerous game engines but mainly the two most powerful engines Unity and Unreal engines.<br><br>
+        With my background of a Bachelor’s degree in Computer Science, I also make mobile applications. I have been developing Android applications mainly with Kotlin and iOS applications with Flutter.
+        Feel free to contact me for any inquiries.
+    </p>
+</main>
+    <section id="contact">
+            <div class="contact">
+             <p><a href="mailto:mutumabrian77@gmail.com"><i class="fas fa-envelope" style="color: white;"></i> </a>
+                <a href="tel:+254757551682"><i class="fas fa-phone" style="color: #39FF14;"></i></a>
+                <a href="https://www.linkedin.com/in/mutuma-brian-791228272/"><i class="fab fa-linkedin" style="color: #0077B5;"></i></a>
+                <a href="https://github.com/mutuma-brian"><i class="fab fa-github" style="color: black;"></i> </a>
+                <a href="https://twitter.com/MutumaDev"><i class="fab fa-twitter" style="color: #0096FF;"></i> </a>
+              </p>
+            </div>
+        </section>
+   <footer>
+    <hr>
+    <p>&copy; All rights reserved 2023</p>
+</footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+</body>
+</html>

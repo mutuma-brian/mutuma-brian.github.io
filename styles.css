@@ -1,0 +1,184 @@
+﻿body {
+    background: linear-gradient(135deg, #080000, #336699);
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.contact{
+    text-align:center;
+}
+.clear {
+    clear: both;
+}
+
+
+.contact a i {
+            font-size:30px;
+            margin: 0 10px; /* Add margin to create space between icons */
+  }
+
+header {
+    background: linear-gradient(135deg, #336699, #080000);
+    padding: 20px;
+    text-align: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+}
+
+.profile-img-container {
+    margin: 0 auto;
+    margin-left: 720px; /* Adjust this value to move it to the left */
+    display: inline-block;
+}
+
+.profile-img {
+    border-radius: 50%;
+    max-width: 200px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    }
+
+
+
+h2 {
+    color: gold;
+    font-size: 28px;
+}
+
+nav {
+    background: linear-gradient(135deg, #080000, #336699);
+    padding: 10px;
+    text-align: center;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: silver;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #080000;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+video {
+            width: auto;
+            margin:10px;
+        }
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    color: silver; /* Text color for the footer */
+    padding: 0px;
+   
+}
+ .job-title {
+        font-size: 16px; /* Adjust the font size as needed */
+        margin-left: 10px; /* Adjust the margin to control the spacing from your name */
+        color: #ccc; /* Adjust the color as needed */
+        padding-bottom: 20px;
+    }
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-top: 10;
+    color: yellow;
+    font-style:italic;
+}
+
+.swiper-container {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+    font-size: 24px;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+}
+
+.about {
+    padding: 20px;
+    text-align: left;
+}
+
+.contact a {
+    color: #57b916;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #336699;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .project {
+        width: 100%;
+    }
+}

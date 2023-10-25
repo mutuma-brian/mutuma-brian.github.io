@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mutuma Brian Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> <!-- Swiper.js CSS -->
+    <link rel="stylesheet" href="styles.css"> <!-- Include your custom CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swipers = document.querySelectorAll('.swiper-container');
+
+            swipers.forEach(function (swiper) {
+                new Swiper(swiper, {
+                    loop: true,
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+  <header>
+  <div class="profile-img-container">
+    <img class="profile-img" src="Pic.jpg" alt="Profile Picture">
+  </div>
+    <h1>
+    <span style="color: white; text-align: left; float: left;">"Dream it. Build It"</span>
+    <span style="text-align:bottom;color: silver; font-size: 20px; float: right;">Game Dev, Designer, Software Developer&nbsp</span>
+    <span style="float: right;">I'm Brian Mutuma&nbsp</span>
+    <span style="color: yellow; float: right;">Hello!! &nbsp</span>  
+</h1>
+</header>
+    <nav>
+        <a href="index.html">Brian Mutuma</a>
+        <a href="games.html">Games</a>
+        <a href="android.html">Android</a>
+        <a href="ios.html">iOS</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <main>
+        <section id="android">
+            <h2>Android Applications</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="Emart 1.jpeg" alt="Emart Screenshot 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Emart 2.jpeg" alt="Emart Screenshot 2">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Emart 3.jpeg" alt="Emart Screenshot 3">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class "swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3>Emart</h3>
+                    <p>Emart is an e-commerce application developed natively for Android.
+                        It allows an Android user to shop online and make secure payments directly via the app.
+                        Users are awarded points when shopping so that they can redeem the points later into a shopping voucher.
+                    </p>
+                </div>
+                <div class="project">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="Earthcare 1.jpeg" alt="Earthcare Screenshot 1">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Earthcare 2.jpeg" alt="Earthcare Screenshot 2">
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <h3>Earthcare</h3>
+                    <p>Earthcare is an Android application developed to allow users to interact with trash collection services in Africa.
+                        The application allows users to pay for trash collection services and earn points for recycling items.
+                        This is aimed at promoting the green movement in fighting climate change.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+             <p><a href="mailto:mutumabrian77@gmail.com"><i class="fas fa-envelope" style="color: white;"></i> </a>
+                <a href="tel:+254757551682"><i class="fas fa-phone" style="color: green;"></i></a>
+                <a href="https://www.linkedin.com/in/mutuma-brian-791228272/"><i class="fab fa-linkedin" style="color: #0077B5;"></i></a>
+                <a href="https://github.com/mutuma-brian"><i class="fab fa-github" style="color: black;"></i> </a>
+                <a href="https://twitter.com/MutumaDev"><i class="fab fa-twitter" style="color: #1DA1F2;"></i> </a>
+              </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+    <hr>
+    <p>&copy; All rights reserved 2023</p>
+</footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> <!-- Swiper.js JavaScript -->
+</body>
+
+</html>
