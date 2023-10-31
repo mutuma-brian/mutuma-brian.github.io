@@ -23,7 +23,7 @@ html, body {
 
 .contact a i {
             font-size:30px;
-            margin: 0 10px; /* Add margin to create space between icons */
+            margin: 0 10px;
   }
 
 header {
@@ -37,7 +37,7 @@ header {
 
 .profile-img-container {
     margin: 0 auto;
-    margin-left: 720px; /* Adjust this value to move it to the left */
+    margin-left: 720px;
     display: inline-block;
 }
 
@@ -101,14 +101,14 @@ section {
 
 footer {
     text-align: center;
-    color: silver; /* Text color for the footer */
+    color: silver;
     padding: 0px;
    
 }
  .job-title {
-        font-size: 16px; /* Adjust the font size as needed */
-        margin-left: 10px; /* Adjust the margin to control the spacing from your name */
-        color: #ccc; /* Adjust the color as needed */
+        font-size: 16px;
+        margin-left: 10px;
+        color: #ccc;
         padding-bottom: 20px;
     }
 
